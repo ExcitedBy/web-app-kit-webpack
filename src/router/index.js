@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+import mainPage from '../pages/main/main'
 //Чтобы подключить страницу (не забудь прописать страницу в routes)
 //@import pageName from  'path to pageName'
 
@@ -14,7 +14,7 @@ export default new Router({
     {
       path: '/',
       name: '',
-      component: '',
+      component: mainPage,
     }
   ],
    mode: 'history'
